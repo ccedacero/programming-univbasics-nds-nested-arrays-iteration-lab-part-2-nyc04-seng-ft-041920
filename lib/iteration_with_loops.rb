@@ -5,8 +5,12 @@ def find_min_in_nested_arrays(src)
   while i < src.length do
     x = 0 
     # min1 = 0
-    # while x < src[i].length do
-    #   current =  src[i][x]
+    while x < src[i].length do
+      current =  src[i][x]
+      min_Arr.push(current)
+      x +=1 
+    end
+    i +=1
     #   if(x < current)
     #     x = current
     #     if(current == current[-1])
@@ -17,8 +21,9 @@ def find_min_in_nested_arrays(src)
     #   end
     #   i +=1 
     # end
-     return min_Arr
+    return min_Arr
   end
+end
      
       
         
