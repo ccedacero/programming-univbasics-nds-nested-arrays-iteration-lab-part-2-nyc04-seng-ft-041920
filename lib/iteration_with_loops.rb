@@ -7,12 +7,14 @@ def find_min_in_nested_arrays(src)
     # min1 = 0
     while x < src[i].length do
       current =  src[i][x]
-       if(min1 < current)
+       if(min1 == 0)
         min1 = current
-        end
-        x +=1 
-        min_Arr.push(min1)
+      elsif (min1 > current)
+        min1 = current
       end
+      x += 1 
+      end
+              min_Arr.push(min1)
             i +=1
   end
       return min_Arr
