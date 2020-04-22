@@ -21,8 +21,8 @@ def find_min_in_nested_arrays(src)
     #   end
     #   i +=1 
     # end
-    return min_Arr
   end
+      return min_Arr
 end
      
       
