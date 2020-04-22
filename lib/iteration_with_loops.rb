@@ -15,6 +15,7 @@ def find_min_in_nested_arrays(src)
       x += 1 
       end
        min_Arr.push(min1)
+       min1 = 0 
       i +=1
   end
       return min_Arr
