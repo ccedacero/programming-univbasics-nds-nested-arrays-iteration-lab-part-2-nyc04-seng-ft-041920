@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-  let i = 0 
+  i = 0 
   min1 = 0
   min_Arr = []
   while i < src.length do
