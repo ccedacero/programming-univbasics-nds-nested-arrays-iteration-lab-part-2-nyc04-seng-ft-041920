@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
       puts current
       if(x < current)
         x = current
-        if(current == current.length-1)
+        if(current == current[-1])
           min_Arr.push(current)
         end
       end
