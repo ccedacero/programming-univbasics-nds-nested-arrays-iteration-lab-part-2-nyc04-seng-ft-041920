@@ -9,11 +9,11 @@ def find_min_in_nested_arrays(src)
       current =  src[i][x]
        if(min1 < current)
         min1 = current
+        end
+        x +=1 
       end
-        end min_Arr.push(min1)
-      x +=1 
-    end
-    i +=1
+        min_Arr.push(min1)
+            i +=1
   end
       return min_Arr
 end
